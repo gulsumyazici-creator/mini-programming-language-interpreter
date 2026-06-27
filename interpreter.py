@@ -1,5 +1,5 @@
-# Name Surname, Student ID
-# Gülsüm Yazıcı, 2023400072
+# Name Surname
+# Gülsüm Yazıcı
 # CmpE 260 Project 1 - Mini Programming Language Interpreter
 
 from __future__ import annotations
