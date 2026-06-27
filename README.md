@@ -36,10 +36,7 @@ The project includes a lexer, parser, AST structure, and evaluator with an expli
 │   ├── closures.txt
 │   ├── scope.txt
 │   └── higher_order.txt
-└── docs/
-    ├── grammar.txt
-    ├── ast.txt
-    └── report.pdf
+
 ```
 
 ## How to Run
