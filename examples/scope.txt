@@ -1,0 +1,15 @@
+(* scope.txt
+   Demonstrates static scoping. f captures the top-level x from its defining environment.
+   Therefore g's local x does not affect f under default static scoping.
+   Expected output with default/static scope:
+   1
+   Expected output with --scope dynamic:
+   100
+*)
+let x = 1;
+let f = fun() -> x end;
+let g = fun() ->
+    let x = 100;
+    f()
+end;
+print(g());

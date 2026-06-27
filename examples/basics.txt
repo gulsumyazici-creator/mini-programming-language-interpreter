@@ -1,0 +1,15 @@
+(* basics.txt
+   Demonstrates variable declarations, arithmetic, comparison, logical operators, assignment, and print.
+   Expected output:
+   10
+   true
+   false
+   15
+*)
+let x = 10;
+let y = 2 * 3 + 4;
+print(x + y - 10);
+print(y == 10);
+print((x < y) and true);
+x = x + 5;
+print(x);

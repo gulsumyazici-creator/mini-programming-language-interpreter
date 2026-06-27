@@ -1,0 +1,19 @@
+(* closures.txt
+   Demonstrates closure behavior. make_counter returns a function that captures count.
+   The captured count variable is preserved across calls.
+   Expected output:
+   1
+   2
+   3
+*)
+let make_counter = fun(start) ->
+    let count = start;
+    fun() ->
+        count = count + 1;
+        count
+    end
+end;
+let c = make_counter(0);
+print(c());
+print(c());
+print(c());

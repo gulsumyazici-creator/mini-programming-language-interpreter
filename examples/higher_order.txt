@@ -1,0 +1,12 @@
+(* higher_order.txt
+   Demonstrates a higher-order map-like pattern.
+   map3 takes a function and a list, applies the function to each of the first three elements,
+   and returns a new list.
+   Expected output:
+   [2, 4, 6]
+*)
+let double = fun(x) -> x * 2 end;
+let map3 = fun(f, xs) ->
+    [f(xs[0]), f(xs[1]), f(xs[2])]
+end;
+print(map3(double, [1, 2, 3]));

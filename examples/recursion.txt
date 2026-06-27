@@ -1,0 +1,13 @@
+(* recursion.txt
+   Demonstrates a recursive factorial function with a base case and recursive case.
+   Expected output:
+   120
+*)
+let factorial = fun(n) ->
+    if n <= 1 then
+        1
+    else
+        n * factorial(n - 1)
+    end
+end;
+print(factorial(5));
