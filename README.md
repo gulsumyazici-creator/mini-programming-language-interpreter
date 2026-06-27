@@ -1,6 +1,6 @@
 # Mini Programming Language Interpreter
 
-A Python interpreter for a small programming language designed for CmpE 260 Project 1.
+A Python interpreter for a small programming language designed for CmpE 260 (Principles of Programming Languages course) Project.
 The project includes a lexer, parser, AST structure, and evaluator with an explicit environment model.
 
 ## Features
